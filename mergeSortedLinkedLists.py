@@ -8,6 +8,7 @@ class ListNode:
         self.next = next
 
 class Solution:
+    # Potential improvement: use a queue instead of a list here
     def insert(self, lists, element):
         index = 0
         while index < len(lists) and element.val > lists[index].val:
