@@ -8,7 +8,7 @@ class ListNode:
 
 class Solution:
     # Potential improvement: use a linkedlist instead of a list here
-    # Here I have the ref to the node so inserting is O(1)
+    # Here I have the ref to the node so inserting would be O(1)
     def insert(self, lists, element):
         index = 0
         while index < len(lists) and element.val > lists[index].val:
